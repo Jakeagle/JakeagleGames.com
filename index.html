@@ -3,167 +3,85 @@
 
 <head>
   <meta charset="utf-8">
-  <title>JakeagleGames</title>
-  <link rel="stylesheet" href="stlyes.css">
-  <div class="MainHeaderGrid">
-
-
-    <div class="name">
-      <h1>JakeagleGames</h1>
-    </div>
-
-    <div class="logo">
-      <img src="JakeagleLogo.jpg" alt="JakeagleLogo">
-    </div>
-
-  </div>
-
-
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    .box {
-      float: left;
-      width: 33.33%;
-      padding: 10px;
-    }
-
-    .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .MainHeaderGrid {
-      border: 3px solid #00ADB5;
-      justify-items: center;
-      align-items: center;
-      display: grid;
-      grid-template-columns: (10%, 90%);
-      gap: 800px;
-      grid-auto-rows: minmax(100px, auto);
-    }
-
-
-
-    .name {
-      grid-column: 4/1;
-      grid-row: 1/1;
-    }
-
-    .logo {
-      grid-column: 1;
-      grid-row: 1;
-    }
-
-
-
-    }
-
-
-    .box {
-      float: left;
-      width: 33.33%;
-      padding: 50px;
-    }
-
-    .clearfix::after {
-      content: "box";
-      clear: both;
-      display: table;
-    }
-  </style>
+  <title>JakeagleGames.com</title>
+  <!---Orbitron Links---------->
+  <link rel="stylesheet" href="css/stlyes.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <!---Russo One Links---------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 
-
-
 <body>
-  <hr>
-  <div class="ClearFixMainGrid">
-    <div class="box" style="background-color:#00ADB5">
-      <h2>
-        <center>
-          <a href="https://www.youtube.com/channel/UCPd-DXU1SHQRmNtqsnKm7QA">New from the YouTube Channel!</a>
-        </center>
-      </h2>
-      <p>
-        <center>
-          <video controls width="600">
-            <source src="https://youtu.be/CyflmsR0IKM" </video>
-        </center>
-      </p>
-    </div>
-    <div class="box" style=background-color:#00ADB5>
-      <h2>
-        <center>
-          Projects!
-        </center>
-      </h2>
-      <p>
-        <center>
-          <h2><a href="android.html">Android Games</a></h2>
-        </center>
-        <br>
-        <br>
-        <center>
-          <h2><a href="migu.html">The M.I.G.U </a></h2>
-        </center>
-
-        <br>
-        <br>
-
-        <center>
-          <h2><a href="ProjectValhalla.html">ProjectValhalla</a></h2>
-        </center>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </p>
-    </div>
-    <div class="box" style="background-color: #00ADB5">
-      <h2>
-        <center>News!</center>
-      </h2>
-
-      <p>
-        <center>
-          In today's news, Project Valhalla still goes well. Ive had to restart Jade's Retopology however as I added too many loop cuts creating too many points to manage
-          So there will be a further delay to the next devlog, esspecially since im also learning web development, but more progress will be made.
-        </center>
-      </p>
-
-      <p>
-        <center>
-          In web Dev news, I have learned even more CSS actions including a few different actions outside of the lessons. This front page was created with that in mind!
-          Web Development has proven very enjoyable, and just like the beggining months of my Game Dev journey, has had a lot of trial and error.
-          I have spent a lot of time staring at documentation just to try and get stuff right.
-        </center>
-      </p>
-
-      <p>
-        <center>
-          Finally, for android news. As of now there are no Android projects in the works. Gravball (Punchball's decendant) is still swirling in my head,
-          however I am still trying to manage both my web development learning, and ProjectValhalla. Those are my two main focuses before any more android projects.
-        </center>
-      </p>
-
-      <p>
-        <center>
-          And thats all for today's news! Be sure to stay tuned for further updates on all of my Projects, and check each page for specifics on Project Valhalla, other MIGU titles, and
-          any android games I may have planned!
-        </center>
-      </p>
-    </div>
+  <div class="JakeagleLogo">
+    <img src="JakeagleLogo.jpg" alt="JakeagleLogo">
   </div>
-  <hr>
-  <br>
-  <br>
-  <br>
+
+  <div class="Website-Header">
+    <br>
+    <h1>JakeagleGames</h1>
+  </div>
+
+  <hr class="top-rule">
+
+  <div class="YT-chan">
+    <h2><a href="https://www.youtube.com/channel/UCPd-DXU1SHQRmNtqsnKm7QA">New from the YouTube Channel!</a></h2>
+    <br>
+    <video width="500" controls>
+      <source src="RE SCULPTING my MAIN CHARACTER for my NEW INDIE GAME.mp4" type="video/mp4">
+
+    </video>
+
+  </div>
+
+  <div class="projects">
+    <h2>Projects!</h2>
+    <br>
+    <br>
+    <h2><a href="android.html">Android Games</a></h2>
+    <br>
+    <br>
+    <h2><a href="migu.html">The M.I.G.U.</a></h2>
+    <br>
+    <br>
+    <h2><a href="ProjectValhalla.html">Android Games</a></h2>
+  </div>
+
+  <div class="news">
+    <h2>News!</h2>
+    <p>
+
+      In today's news, Project Valhalla still goes well. Ive had to restart Jade's Retopology however as I added too many loop cuts creating too many points to manage
+      So there will be a further delay to the next devlog, esspecially since im also learning web development, but more progress will be made.
+
+    </p>
+
+    <p>
+
+      In web Dev news, I have learned even more CSS actions including a few different actions outside of the lessons. This front page was created with that in mind!
+      Web Development has proven very enjoyable, and just like the beggining months of my Game Dev journey, has had a lot of trial and error.
+      I have spent a lot of time staring at documentation just to try and get stuff right.
+
+    </p>
+
+    <p>
+
+      Finally, for android news. As of now there are no Android projects in the works. Gravball (Punchball's decendant) is still swirling in my head,
+      however I am still trying to manage both my web development learning, and ProjectValhalla. Those are my two main focuses before any more android projects.
+
+    </p>
+
+    <p>
+
+      And thats all for today's news! Be sure to stay tuned for further updates on all of my Projects, and check each page for specifics on Project Valhalla, other MIGU titles, and
+      any android games I may have planned!
+
+    </p>
+  </div>
+
   <div class="contactinfo">
     <p>
     <ul>
@@ -173,17 +91,7 @@
     </ul>
     </p>
   </div>
+  <hr class="bottom-rule">
 </body>
-<style>
-  .contactinfo {
-    margin: auto;
-    text-align: center;
-    width: 20%;
-    border: 3px solid #00ADB5;
-
-
-    padding: 10px;
-  }
-</style>
 
 </html>
