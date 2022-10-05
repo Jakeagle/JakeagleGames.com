@@ -94,9 +94,20 @@ h1{
 }
 
 h2:hover {
-  text-decoration-color: #EEEEEE;
+  color: #EEEEEE;
+  background-color: #072227;
   text-decoration: underline;
 
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EEEEEE;
+  background-color: #072227;
+  text-decoration: underline;
 }
 p{
   font-family: "Russo One", sans-serif;
