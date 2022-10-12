@@ -1,120 +1,586 @@
-/**********Class Modifiers**********/
+/**********Splash Screen Modifiers**********/
+.Welcome-Screen {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
 
+.Splash-Screen {
+  border-style: groove;
+  border-width: 15px;
+  border-color: #072227;
+  height: 930px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background-color: #35858B;
+}
 
 .JakeagleLogo {
-  width: 176px;
-  height: 176px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  width: 1000px;
+  position: relative;
+  left: 427px;
+  bottom: 50px;
 }
 
-.Website-Header {
-  width: 1920px;
-  height: 176px;
+.left-portrait {
+  width: 400px;
+  height: 450px;
+  background-color: #072227;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  text-align: center;
+  bottom: 100px;
+  left: 100px;
 }
 
-.top-rule {
+.JadeImg {
+  width: 350px;
   position: absolute;
-  top: 171px;
-  left: 0px;
-  height: 15px;
+  left: 25px;
+  top: 20px;
+}
+
+.right-portrait {
+  width: 400px;
+  height: 450px;
+  background-color: #072227;
+  position: absolute;
+  bottom: 100px;
+  right: 90px;
+}
+
+.HavockImg {
+  width: 340px;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+
+.Splash-Screen-Rule {
+  position: relative;
+  top: 50px;
+}
+
+/**********Who are we Modifiers**********/
+.Who-are-we-container {
+  height: 930px;
   width: 100%;
-  background-color: #072227;
+  position: absolute;
+  top: 1150px;
 }
 
-.YT-chan {
-  font-family: "Orbitron", sans-serif;
-  width: 615px;
-  height: 500px;
-  position: absolute;
-  top: 200px;
-  left: 10px;
+.Who-are-we {
   text-align: center;
-  align-items: center;
-  background-color: #35858B;
-
+  position: relative;
+  top: 50px;
 }
 
-.projects {
-  font-family: "Orbitron", sans-serif;
+.Programmer-logo {
+  width: 500px;
+  position: relative;
+  left: 695px;
+}
+
+.Who-are-we-paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   text-align: center;
-  width: 615px;
-  height: 500px;
-  position: absolute;
-  top: 200px;
-  right: 650px;
-  background-color: #35858B;
+  width: 800px;
+  line-height: 2;
+  position: relative;
+  left: 550px;
 }
 
-.news {
-  font-family: "Orbitron", sans-serif;
-  text-align: center;
-  width: 615px;
-  height: 500px;
-  position: absolute;
-  top: 200px;
-  left: 1300px;
-  background-color: #35858B;
+.Who-are-we-rule {
+  position: relative;
+  top: 1150px;
 }
 
-.bottom-rule {
-  position: absolute;
-  top: 700px;
-  height: 15px;
+/**********Tools of the trade modifiers**********/
+.Tools-of-the-trade {
   width: 100%;
-  background-color: #072227;
+  height: 930px;
+  position: relative;
+  top: 1175px;
 }
 
-.contactinfo {
-  font-family: "Orbitron", sans-serif;
-  position: absolute;
-  top: 750px;
-  right: 750px;
+.Tools-of-the-trade-title {
   text-align: center;
-  width: 20%;
-  border: 3px solid #00ADB5;
-  padding: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.Unity-Logo {
+  height: 25%;
+  float: left;
+  margin-right: 25px;
+}
+
+.Visual-Studio {
+  height: 200px;
+  float: right;
+}
+
+.Cakewalk {
+  height: 15%;
+  position: relative;
+  left: 525px;
+  margin-bottom: 25px;
+}
+
+.Programming-tools {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  height: 950px;
+  width: 90%;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.IDE-H3 {
+  text-align: right;
+}
+
+.Our-IDE {
+  text-align: right;
+}
+
+.MusicMachine {
+  text-align: center;
+}
+
+.Music {
+  text-align: center;
+}
+
+.Tools-divider {
+  position: relative;
+  top: 1600px;
+}
+
+/***********Our Projects Modifiers**********/
+.Our-Projects {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 1700px;
+}
+
+.Our-Projects-Title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.Projects-Paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 800px;
+  line-height: 2;
+  position: relative;
+  left: 525px;
+  top: 50px;
+}
+
+.Projects-rule {
+  position: relative;
+  top: 1850px;
+}
+
+/**********MIGU Modifiers**********/
+.MIGU {
+  width: 100%;
+  height: 1700px;
+  position: relative;
+  top: 1910px;
+}
+
+.MIGU-title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.MIGU-Paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 800px;
+  line-height: 2;
+  position: relative;
+  left: 525px;
+  top: 50px;
+}
+
+.PV-image-1 {
+  background-color: #35858B;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  top: 120px;
+  left: 15px;
+}
+
+.PV-image-2 {
+  background-color: #35858B;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  bottom: 480px;
+  left: 640px;
+}
+
+.PV-image-3 {
+  background-color: #35858B;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  bottom: 1080px;
+  left: 1265px;
+}
+
+.Jade-Portrait {
+  height: 90%;
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+
+.Jade-Head {
+  height: 90%;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.Jade-Pose {
+  height: 90%;
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+.News {
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 1000px;
+  color: #35858B;
+}
+
+.News-Paragraph {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  width: 800px;
+  line-height: 2;
+  position: relative;
+  bottom: 1000px;
+  left: 540px;
+}
+
+.MIGU-rule {
+  position: relative;
+  top: 2000px;
+}
+
+/**********Android Modifiers**********/
+.Android {
+  width: 100%;
+  height: 1500px;
+  position: relative;
+  top: 2100px;
+}
+
+.Android-title {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 75px;
+}
+
+.Android-Paragraph {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  width: 800px;
+  line-height: 2;
+  position: relative;
+  top: 125px;
+  left: 540px;
+}
+
+.Android-Paragraph2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  width: 800px;
+  line-height: 2;
+  position: relative;
+  top: 125px;
+  left: 540px;
+}
+
+.Grav-Ball-Clip {
+  height: 400px;
+  width: 500px;
+  position: relative;
+  top: 180px;
+  left: 25px;
+  background-color: #35858B;
+
+  border-style: groove;
+  border-width: 15px;
+  border-color: #072227;
+}
+
+.Sniper-Ball-Clip{
+  height: 400px;
+  width: 500px;
+  position: relative;
+  bottom: 250px;
+  left: 675px;
+  background-color: #35858B;
+
+  border-style: groove;
+  border-width: 15px;
+  border-color: #072227;
+}
+
+.Tiny-Ball-Clip{
+  height: 400px;
+  width: 500px;
+  position: relative;
+  bottom: 680px;
+  left: 1325px;
+  background-color: #35858B;
+
+  border-style: groove;
+  border-width: 15px;
+  border-color: #072227;
+
+
+}
+
+.Clips {
+  position: relative;
+  top: 75px;
+  left: 25px;
+}
+
+.Android-news{
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 575px;
+  color: #35858B;
+}
+.Android-news-paragraph{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 800px;
+  line-height: 2;
+  position: relative;
+  bottom: 550px;
+  left: 535px;
+}
+
+.Android-rule{
+  position: relative;
+  top: 2125px;
+}
+/**********Social Media Modifiers**********/
+
+.Social-Media{
+  width: 100%;
+  height: 1500px;
+  position: relative;
+  top: 2200px;
+}
+
+.Social-media-title {
+  font-size: 75px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.Instagram {
+  height: 25%;
+  float: left;
+  margin-right: 25px;
+}
+
+.Facebook {
+  height: 30%;
+  float: right;
+  margin-left: 10px;
+}
+
+.Youtube {
+  float: left;
+  height: 25%;
+  margin-right: 25px;
+}
+
+.Our-Platforms {
+  font-family: 'Montserrat', sans-serif;
+  height: 950px;
+  width: 90%;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.FB-title {
+  text-align: right;
+}
+
+.FBP {
+  text-align: right;
+}
+
+.YT-title {
+  text-align: left;
+}
+
+.Music {
+  text-align: center;
 }
 
 
-
-/**********ElementModifiers**********/
-body {
-  background-color: #4FBDBA;
-}
-h1{
-  font-family: "Orbitron", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
+.Social-Media-rule{
+  position: relative;
+  top: 1800px;
 }
 
-h2:hover {
-  color: #EEEEEE;
+/**********Contact Us Modifiers*********/
+
+.Contact-Us{
+  width: 100%;
+  height: 560px;
+  position: relative;
+  top: 2150px;
+  background-color: #35858B;
+}
+
+.Contact-us-title{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.contact-us-paragraph{
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.Contact-us-links{
+  height: 30%;
+  width: 90%;
   background-color: #072227;
-  text-decoration: underline;
-
+  position: relative;
+  top: 50px;
+  margin: auto;
 }
-a{
-  color: black;
+
+.YT-link{
+  position: relative;
+  top: 45px;
+  left: 150px;
+}
+
+.FB-link{
+  position: relative;
+  top: 45px;
+  left: 575px;
+}
+
+.IG-link{
+  position: relative;
+  top: 45px;
+  left: 1000px;
+}
+
+.btn {
+  background: #4FBDBA;
+  background-image: -webkit-linear-gradient(top, #4FBDBA, #072227);
+  background-image: -moz-linear-gradient(top, #4FBDBA, #072227);
+  background-image: -ms-linear-gradient(top, #4FBDBA, #072227);
+  background-image: -o-linear-gradient(top, #4FBDBA, #072227);
+  background-image: linear-gradient(to bottom, #4FBDBA, #072227);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  position: relative;
+  top: 200px;
+  left: 175px;
+}
+
+.btn:hover {
+  background: #072227;
+  background-image: -webkit-linear-gradient(top, #072227, #4FBDBA);
+  background-image: -moz-linear-gradient(top, #072227, #4FBDBA);
+  background-image: -ms-linear-gradient(top, #072227, #4FBDBA);
+  background-image: -o-linear-gradient(top, #072227, #4FBDBA);
+  background-image: linear-gradient(to bottom, #072227, #4FBDBA);
   text-decoration: none;
 }
 
-a:hover{
-  color: #EEEEEE;
-  background-color: #072227;
-  text-decoration: underline;
-}
-p{
-  font-family: "Russo One", sans-serif;
-  font size: 10px;
+/**********Element Modifiers**********/
+hr{
+  border-style: dotted none none;
+  height: 0px;
+  width: 10%;
+  border-color: #4FBDBA;
+  border-width: 15px;
 }
 
-ul{
-  font-style: oblique;
-  font-family: "Russo One", sans-serif;
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 75px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #4FBDBA;
+}
+ol{
+  text-align: right;
+  font-size: 20px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover{
+  background-color: #4FBDBA;
+  text-decoration: underline;
 }
