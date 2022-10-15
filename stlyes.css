@@ -15,7 +15,7 @@
   height: 930px;
   width: 100%;
   margin: 0 auto 0 auto;
-  background-color: #35858B;
+  background-color: #393E46;
 }
 
 .JakeagleLogo {
@@ -216,7 +216,7 @@
 }
 
 .PV-image-1 {
-  background-color: #35858B;
+  background-color: #04009A;
   height: 600px;
   width: 600px;
   position: relative;
@@ -225,7 +225,7 @@
 }
 
 .PV-image-2 {
-  background-color: #35858B;
+  background-color: #04009A;
   height: 600px;
   width: 600px;
   position: relative;
@@ -234,7 +234,7 @@
 }
 
 .PV-image-3 {
-  background-color: #35858B;
+  background-color: #04009A;
   height: 600px;
   width: 600px;
   position: relative;
@@ -268,7 +268,7 @@
   text-align: center;
   position: relative;
   bottom: 1000px;
-  color: #35858B;
+  color: #04009A;
 }
 
 .News-Paragraph {
@@ -330,11 +330,11 @@
   position: relative;
   top: 180px;
   left: 25px;
-  background-color: #35858B;
+  background-color: #04009A;
 
   border-style: groove;
   border-width: 15px;
-  border-color: #072227;
+  border-color: #393E46;
 }
 
 .Sniper-Ball-Clip{
@@ -343,11 +343,11 @@
   position: relative;
   bottom: 250px;
   left: 675px;
-  background-color: #35858B;
+  background-color: #04009A;
 
   border-style: groove;
   border-width: 15px;
-  border-color: #072227;
+  border-color: #393E46;
 }
 
 .Tiny-Ball-Clip{
@@ -356,11 +356,11 @@
   position: relative;
   bottom: 680px;
   left: 1325px;
-  background-color: #35858B;
+  background-color: #04009A;
 
   border-style: groove;
   border-width: 15px;
-  border-color: #072227;
+  border-color: #393E46;
 
 
 }
@@ -376,7 +376,7 @@
   text-align: center;
   position: relative;
   bottom: 575px;
-  color: #35858B;
+  color: #04009A;
 }
 .Android-news-paragraph{
   text-align: center;
@@ -466,7 +466,7 @@
   height: 560px;
   position: relative;
   top: 2150px;
-  background-color: #35858B;
+  background-color: #393E46;
 }
 
 .Contact-us-title{
@@ -480,12 +480,13 @@
   text-align: center;
   position: relative;
   top: 50px;
+  color: #EEEEEE;
 }
 
 .Contact-us-links{
   height: 30%;
   width: 90%;
-  background-color: #072227;
+  background-color: #04009A;
   position: relative;
   top: 50px;
   margin: auto;
@@ -545,13 +546,14 @@ hr{
   border-style: dotted none none;
   height: 0px;
   width: 10%;
-  border-color: #4FBDBA;
+  border-color: #393E46;
   border-width: 15px;
 }
 
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 75px;
+  color: #04009A;
 }
 
 h2 {
@@ -559,7 +561,7 @@ h2 {
 }
 
 h3 {
-  color: #4FBDBA;
+  color: #04009A;
 }
 ol{
   text-align: right;
