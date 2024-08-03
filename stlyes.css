@@ -1,0 +1,29 @@
+body{
+  background-color: #AAD8D3;
+
+}
+
+hr{
+  background-color: #00ADB5;
+  border-style: groove groove groove;
+  height: 30px;
+  width: 100%;
+  border-color: #00ADB5;
+  border-width: 15px;
+}
+
+h1{
+  color: #393E46;
+}
+
+h2{
+  color: #AAD8D3;
+}
+
+h3{
+  color: #AAD8D3;
+}
+
+body{
+  color: #EEEEEE;
+}
